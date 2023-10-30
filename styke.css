@@ -1,10 +1,13 @@
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
 body,html{
+    overflow-x: hidden;
     background:url('./phone-1080x1920.jpg') no-repeat center;
     background-size: cover;
 }
 .current{
+    position: relative;
+    overflow: hidden;
     background-color: #33635d88;
     margin: 3%;
     margin-top: 28%;
@@ -13,7 +16,7 @@ body,html{
     justify-content: center;
     border-radius: 20px;
     padding: 15px;
-    z-index: -1;
+    z-index: 0;
 }
 .fst{
     margin-top: 20vh;
@@ -24,6 +27,7 @@ body,html{
     border: 1px solid #acdf87;
     box-shadow: 2px 2px 2px #acdf87;
     border-radius: 5px;
+    z-index: 2;
 }
 h1 {
     color: #acdf87;
@@ -34,6 +38,7 @@ h1 {
     transform: scale(0.94);
     animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1);
     animation: head 2s infinite;
+    z-index: 4;
 }
 @keyframes head {
     0%{
@@ -106,12 +111,13 @@ animation: fade-in 0.8s 1.0s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
   
-.current #logo{
+#logo{
     position: absolute;
-    top: 0% ;
+    top: 7% ;
     width: 30vb;
     height: 30vh;
     left: calc(50% - 15vb);
+    z-index: 1;
 }
 .foot{
     background-color: #33635d88;
@@ -124,6 +130,7 @@ p{
 }
 .cont
 {
+    position: relative;
     color: #acdf87;
     border-radius: 20px;
     padding: 8px;
@@ -131,6 +138,53 @@ p{
     border: 1px solid #acdf87;
     box-shadow: 2px 2px 2px #acdf87;
 }
+
+#_2-1{
+    position: absolute;
+    right: -20%;
+    top: 30%;
+    display: inline;
+    width: 200px;
+    height: 200px;
+    z-index: 3;
+}
+#_2-2{
+    position: absolute;
+    left: -19%;
+    top: 30%;
+    display: inline;
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+    rotate: 130deg;
+}
+#_2-3{
+    position: absolute;
+    right: -20%;
+    top: 50%;
+    rotate: 25deg;
+    display: inline;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+#_3{
+    position: absolute;
+    left: -10%;
+    rotate: 36deg;
+    opacity: 1;
+    bottom: -55%;
+    height: 15vh;
+    z-index: 0;
+}
+/* 
+
+
+#_4{
+    position: absolute;
+    right: 10%;
+    height: 1vh;
+} */
 #pic{
     filter: drop-shadow( 7px 7px 15px rgba(216, 233, 194, 0.541));
     margin-bottom: 0%;
