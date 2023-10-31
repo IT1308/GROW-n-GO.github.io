@@ -1,6 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
-body,html{
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');body,html{
     overflow-x: hidden;
     background:url('./phone-1080x1920.jpg') no-repeat center;
     background-size: cover;
@@ -28,6 +27,12 @@ body,html{
     box-shadow: 2px 2px 2px #acdf87;
     border-radius: 5px;
     z-index: 2;
+    color: white;
+    font-size: 36px;
+}
+.snd{
+    font-size: 25   px;
+    margin-bottom: 20px;
 }
 h1 {
     color: #acdf87;
@@ -138,11 +143,15 @@ p{
     border: 1px solid #acdf87;
     box-shadow: 2px 2px 2px #acdf87;
 }
-
+ul{
+    font-family: "Playpen Sans";
+    margin: 0%;
+    margin-left: -5%;
+}
 #_2-1{
     position: absolute;
     right: -20%;
-    top: 30%;
+    top: 28%;
     display: inline;
     width: 200px;
     height: 200px;
@@ -150,12 +159,12 @@ p{
 }
 #_2-2{
     position: absolute;
-    left: -19%;
-    top: 30%;
+    left: -30%;
+    top: 25%;
     display: inline;
     width: 200px;
     height: 200px;
-    z-index: 0;
+    z-index: 3;
     rotate: 130deg;
 }
 #_2-3{
@@ -170,10 +179,10 @@ p{
 }
 #_3{
     position: absolute;
-    left: -10%;
-    rotate: 36deg;
-    opacity: 1;
-    bottom: -55%;
+    right: 0%;
+    opacity: 0.8;
+    rotate: -36deg;
+    bottom: -58vh;
     height: 15vh;
     z-index: 0;
 }
