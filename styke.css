@@ -7,7 +7,7 @@
 .current{
     position: relative;
     overflow: hidden;
-    background-color: #33635d88;
+    background-color: #33635dc0;
     margin: 3%;
     margin-top: 28%;
     display: flex;
@@ -180,7 +180,7 @@ ul{
 }
 #_3{
     position: fixed;
-    top: 63vh;
+    top: 600px;
     left: -10%;
     opacity: 0.8;
     rotate: 36deg;
@@ -189,7 +189,7 @@ ul{
 }
 #_3-3{
     position: fixed;
-    top: calc(63vh - 12vh);
+    top: calc(600px - 12vh);
     left: -15%;
     opacity: 0.8;
     height: 25vh;
@@ -197,14 +197,14 @@ ul{
 }
 #_4{
     position: fixed;
-    top: 0%;
+    top: 0;
     right: 0%;
     height: 55vh;
     z-index: 0;
 }
 #gr{
     position: fixed;
-    bottom: 0%;
+    bottom: 0;
     height: 15vh;
     left: -3%;
 }
