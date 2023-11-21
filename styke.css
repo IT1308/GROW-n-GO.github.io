@@ -180,7 +180,7 @@ ul{
 }
 #_3{
     position: fixed;
-    top: 10%;
+    bottom: 23%;
     left: -10%;
     rotate: 36deg;
     height: 15vh;
@@ -188,7 +188,7 @@ ul{
 }
 #_3-3{
     position: fixed;
-    top: calc(10% - 12vh);
+    bottom: calc(23% + 2vh);
     left: -15%;
     height: 25vh;
     z-index: 0;
