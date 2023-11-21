@@ -180,7 +180,7 @@ ul{
 }
 #_3{
     position: fixed;
-    top: 63%;
+    top: 63vh;
     left: -10%;
     opacity: 0.8;
     rotate: 36deg;
@@ -189,8 +189,7 @@ ul{
 }
 #_3-3{
     position: fixed;
-    top: calc(63% - 12vh);
-    left: 0%;
+    top: calc(63vh - 12vh);
     left: -15%;
     opacity: 0.8;
     height: 25vh;
